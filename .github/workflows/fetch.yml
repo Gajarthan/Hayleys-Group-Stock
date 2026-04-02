@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 20
       - name: Install OpenCode CLI
-        run: npm install -g opencode
+        run: npm install -g opencode-ai@latest
       - name: OpenCode test run
         run: opencode run "Explain how closures work in JavaScript"
       - run: npm ci
