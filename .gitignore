@@ -1,0 +1,11 @@
+# Node
+node_modules/
+dist/
+coverage/
+*.log
+
+# Editor
+.idea/
+.vscode/
+
+

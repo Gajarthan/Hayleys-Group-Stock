@@ -1,0 +1,28 @@
+{
+  "name": "hayl-status-checker",
+  "version": "0.1.0",
+  "description": "Fetch and track HAYL.N0000 quotes and CSE market status with change-aware history",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/index.ts",
+    "fetch": "ts-node scripts/fetch-hayl.ts",
+    "analyze": "ts-node analysis/overview.ts"
+  },
+  "keywords": [
+    "cse",
+    "hayleys",
+    "stock",
+    "monitor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@gajarthan/cse-mcp": "^2.0.1"
+  }
+}
